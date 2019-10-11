@@ -26,6 +26,6 @@ $types = "s";
 $name = "hoge";
 $params = array($name);
 
-$res = $db->create($sql,true,$types,$params);
+$res = $db->other($sql,true,$types,$params);
 var_dump($res);
 ```
